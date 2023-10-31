@@ -1,0 +1,30 @@
+<html>
+<head>
+<style>
+#name {background-color: red; 
+  height: 200px;
+  width: 200px;
+  background-image: repeating-conic-gradient(rgb(25, 20, 20) 10%, rgb(243, 243, 234) 20%);
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+  
+}
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+    
+
+</style>
+</head>
+<body>
+<div id="name" style=" position: absolute;  top: 172px; left: 370px; " ></div><br>
+<div id="name" style="position: absolute; top:172px; left:680px "></div>
+<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyQUb31aUfaiZq-Lxtk5jgzUTxaiT0BTOPrw&usqp=CAU" height="347px" width="497px"></center>
+
+</body>
+</html>
